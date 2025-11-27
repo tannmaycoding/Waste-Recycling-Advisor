@@ -12,7 +12,7 @@ LLAMA_MODEL = "openai/gpt-oss-120b"
 st.set_page_config(page_title="Recycling Advisor", layout="wide")
 
 # --- 2. SETUP ---
-hf_token = "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"
+hf_token = "Enter-Your-Token"
 if not hf_token:
     st.error("❌ HF_TOKEN is missing.")
     st.stop()
@@ -189,3 +189,4 @@ if uploaded_file:
 
     except Exception as e:
         st.error(f"Processing Error: {e}")
+
